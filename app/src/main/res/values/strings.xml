@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="placeholder_search"> ( android ) </string>
+    <string name="search_query">Search Keyword</string>
+    <string name="action_filter">Filter</string>
+</resources>
