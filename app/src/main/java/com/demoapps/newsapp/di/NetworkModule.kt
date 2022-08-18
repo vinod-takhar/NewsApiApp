@@ -37,8 +37,8 @@ fun headerInterceptor(): Interceptor =
         val request = chain.request()
         val newUrl = request.url.newBuilder()
             .addQueryParameter("apiKey", BuildConfig.NEWS_API_KEY)
-            .addQueryParameter("sortBy", "publishedAt")
-            .addQueryParameter("searchIn", "title")
+//            .addQueryParameter("sortBy", "publishedAt")
+//            .addQueryParameter("searchIn", "title")
             .addQueryParameter("language", "en")
             .build()
 
